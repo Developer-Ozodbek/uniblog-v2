@@ -104,7 +104,7 @@ const DetailedPage = ({ blog, latestBlogs, categories }) => {
                   {blog.description ? <Typography>{blog.description}</Typography> : <Typography>there is no description</Typography>}
                 </AccordionDetails>
               </Accordion>
-              <Box className={'blog-content'}>{renderHTML(blog.content.html)}</Box>
+              <div dangerouslySetInnerHTML={{__html: blog.content.html}} className={'blog-content'} />
             </Box>
         </Box>}
       </Layout>
