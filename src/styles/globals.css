@@ -20,7 +20,7 @@
   --font-size-h6: .8em;
 }
 body{
-  background: #f5f5f5;
+  background: #dedede !important;
 }
 body::-webkit-scrollbar {
   width: 5px;
