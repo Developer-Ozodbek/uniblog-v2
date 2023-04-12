@@ -87,7 +87,7 @@ const Navbar = (props) => {
               <Button onClick={() => router.push(item.route)} key={item.route} sx={{ color: '#fff', fontWeight: 700 }}>
                 {item.label}
               </Button>
-            ))}git 
+            ))}
           </Box>
         </Toolbar>
       </AppBar>
