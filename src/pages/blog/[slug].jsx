@@ -7,7 +7,6 @@ import { Sidebar } from "../../components"
 import { formatTimeAgo, readingTime } from '../../constants/constant';
 import { useRouter } from 'next/router';
 import SEO from '../../seo/seo';
-import renderHTML from 'react-render-html';
 
 
 
